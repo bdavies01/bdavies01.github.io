@@ -1,1 +1,33 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Bert Davies
+description: 'Business Card Page'
+url: 'http://bdavies01.github.io'
+baseurl: ''
+profilepic: '/images/IMG_0791.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Bert Davies'
+  email: bertdaviezz@gmail.com
+  github_username:  bdavies01
+  linkedin_username:  bert-davies-198917173
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
